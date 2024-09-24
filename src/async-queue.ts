@@ -116,7 +116,7 @@ export class AsyncQueue {
   /**
    * To get user input from command line (and make sure we got the entire input)
    * @param timeout
-   * @returns
+   * @returns void
    */
   private debounce(timeout = 300) {
     let timer: NodeJS.Timeout;
